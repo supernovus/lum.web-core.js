@@ -1,0 +1,29 @@
+{
+  "name": "@lumjs/web-core",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./content": "./lib/content.js",
+    "./events": "./lib/events.js",
+    "./parser": "./lib/parser.js",
+    "./utils": "./lib/utils.js",
+    "./eventbuilder": "./lib/eventbuilder.js",
+    "./listcompiler": "./lib/listcompiler.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.web-core.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.19.0"
+  },
+  "scripts":
+  {
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
