@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/web-core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "exports":
   {
@@ -8,6 +8,7 @@
     "./content": "./lib/content.js",
     "./events": "./lib/events.js",
     "./parser": "./lib/parser.js",
+    "./query": "./lib/query.js",
     "./utils": "./lib/utils.js",
     "./eventbuilder": "./lib/eventbuilder.js",
     "./listcompiler": "./lib/listcompiler.js",
@@ -20,7 +21,7 @@
     "url": "https://github.com/supernovus/lum.web-core.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.19.0"
+    "@lumjs/core": "^1.20.0"
   },
   "scripts":
   {
