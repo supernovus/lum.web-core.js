@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/web-core",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "lib/index.js",
   "exports":
   {
@@ -9,6 +9,7 @@
     "./events": "./lib/events.js",
     "./parser": "./lib/parser.js",
     "./query": "./lib/query.js",
+    "./ui": "./lib/ui.js",
     "./utils": "./lib/utils.js",
     "./eventbuilder": "./lib/eventbuilder.js",
     "./listcompiler": "./lib/listcompiler.js",

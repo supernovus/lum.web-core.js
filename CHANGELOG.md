@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2024-03-26
+### Added
+- A `utils.empty()` function for emptying different kinds of containers.
+- A new `ui` module for UI related functions.
+  - `ui.opacityOf()` to get the opacity value of an element.
+- A couple new aliases to the `ez` object:
+  - `empty()` → `utils.empty()`
+  - `ready()` → `utils.whenDOMReady()`
+
 ## [1.2.0] - 2024-03-20
 ### Added
 - A `query.FindResult` class for detailed info (mostly for debugging).
@@ -35,7 +44,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/supernovus/lum.web-core.js/releases/tag/v1.0.0
