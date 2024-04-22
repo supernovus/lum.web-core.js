@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2024-04-22
+### Changed
+- Moved `utils.getSymbolMap` to `@lumjs/core/maps.getSymbolMap`
+  - Left an _alias_ in place so existing imports will continue to work.
+  - Added an alias for the new `@lumjs/core/maps.getSymbolCache` function.
+- Bumped min version of `@lumjs/core` to reflect the above changes.
+- Fixed some DocBlocks in `query` sub-module.
+
 ## [1.3.0] - 2024-03-26
 ### Added
 - A `utils.empty()` function for emptying different kinds of containers.
@@ -44,7 +52,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.0.0...v1.1.0
