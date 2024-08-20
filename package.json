@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/web-core",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "main": "lib/index.js",
   "exports":
   {
@@ -22,7 +22,7 @@
     "url": "https://github.com/supernovus/lum.web-core.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.24.0"
+    "@lumjs/core": "^1.26.0"
   },
   "scripts":
   {

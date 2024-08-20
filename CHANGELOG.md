@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2024-08-20
+### Added
+- `events.onEvents()` a wrapper around `events.onEvent()`
+  that allows working with multiple Elements or event names at once.
+- `ez.on()` → `events.onEvent()`
+- `ez.listen()` → `events.onEvents()`
+### Changed
+- Enhanced the documentation for the `events` module.
+
 ## [1.4.0] - 2024-04-22
 ### Changed
 - Moved `utils.getSymbolMap` to `@lumjs/core/maps.getSymbolMap`
@@ -52,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.1.0...v1.2.0
