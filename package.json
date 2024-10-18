@@ -1,31 +1,38 @@
 {
   "name": "@lumjs/web-core",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "main": "lib/index.js",
   "exports":
   {
     ".": "./lib/index.js",
     "./content": "./lib/content.js",
+    "./dialog": "./lib/dialog.js",
+    "./eventbuilder": "./lib/eventbuilder.js",
     "./events": "./lib/events.js",
+    "./listcompiler": "./lib/listcompiler.js",
     "./parser": "./lib/parser.js",
     "./query": "./lib/query.js",
     "./ui": "./lib/ui.js",
     "./utils": "./lib/utils.js",
-    "./eventbuilder": "./lib/eventbuilder.js",
-    "./listcompiler": "./lib/listcompiler.js",
     "./package.json": "./package.json"
   },
-  "license": "MIT",
+  "dependencies": {
+    "@lumjs/core": "^1.36.0"
+  },
+  "devDependencies":
+  {
+    "@lumjs/build": "^1.1.0"
+  },
+  "scripts":
+  {
+    "build-meta": "lum-build",
+    "build-jsdoc": "jsdoc -c ./jsdoc.js",
+    "build-docs": "npm run build-meta && npm run build-jsdoc"
+  },
   "repository":
   {
     "type": "git",
     "url": "https://github.com/supernovus/lum.web-core.js.git"
   },
-  "dependencies": {
-    "@lumjs/core": "^1.26.0"
-  },
-  "scripts":
-  {
-    "build-docs": "jsdoc -c ./jsdoc.json"
-  }
+  "license": "MIT"
 }
