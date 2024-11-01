@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.0] - 2024-10-30
+### Fixed
+- The `ui.getTargetPos()` checks for `window.TouchEvent`,
+  so browsers without it won't throw reference errors.
+### Removed
+- The `dialog` class (moved into `@lumjs/web-dialog` package).
+  I'm not bumping the major version as I'm the only user so fuck it.
+
 ## [1.6.0] - 2024-10-18
 ### Added
 - A simple `dialog` class
