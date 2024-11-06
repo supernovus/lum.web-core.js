@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.1] - 2024-11-06
+### Changed
+- More tweaks to `ui.getTargetPos()` and `ui.reposition()`
+### Added
+- `ui.isTouchEvent` and `ui.isTouch` helper functions
+
 ## [1.7.0] - 2024-10-30
 ### Fixed
 - The `ui.getTargetPos()` checks for `window.TouchEvent`,
@@ -83,7 +89,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.6.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.1...HEAD
+[1.6.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.0...v1.7.1
+[1.7.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/supernovus/lum.web-core.js/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.4.0...v1.5.0
