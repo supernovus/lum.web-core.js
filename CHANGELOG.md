@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.2] - 2024-12-10 (commited 2025-04-21)
+### Added
+- ez.POS alias to content.POS
+### Fixed
+- Changelog links
+
 ## [1.7.1] - 2024-11-06
 ### Changed
 - More tweaks to `ui.getTargetPos()` and `ui.reposition()`
@@ -89,8 +95,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.1...HEAD
-[1.6.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.0...v1.7.1
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.2...HEAD
+[1.7.2]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.1...v1.7.2
+[1.7.1]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/supernovus/lum.web-core.js/compare/v1.5.0...v1.5.1
