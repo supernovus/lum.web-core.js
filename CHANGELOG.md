@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.8.0] - 2025-04-24
+### Added
+- The `events.onDelegatedEvent()` function replaces `addDelegatedEvent()`,
+  which is now a deprecated wrapper around the new function, which has
+  a few extra features, including using an event validation test function.
+### Changed
+- `events.onEvent()` also now supports a `validate` option, and like with
+  the `selector` option, if it's specified, then onDelegatedEvent() will be
+  used behind the scenes. Using the onEvent() and/or onEvents() functions 
+  is recommended rather than calling onDelegatedEvent() directly.
+
 ## [1.7.2] - 2024-12-10 (commited 2025-04-21)
 ### Added
 - ez.POS alias to content.POS
@@ -95,7 +106,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.2...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.2...v1.8.0
 [1.7.2]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.1...v1.7.2
 [1.7.1]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.6.0...v1.7.0
