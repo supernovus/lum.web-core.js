@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.9.0] - 2025-11-04
+### Added
+- A `jq` sub-module that contains some basic helpers for working with jQuery.
+  The `jq.isMatch()` function is an upgraded version if `isJQ` from the 
+  [@lumjs/simple-loader] package (which will be updated to use this).
+
 ## [1.8.0] - 2025-04-24
 ### Added
 - The `events.onDelegatedEvent()` function replaces `addDelegatedEvent()`,
@@ -34,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The `ui.getTargetPos()` checks for `window.TouchEvent`,
   so browsers without it won't throw reference errors.
 ### Removed
-- The `dialog` class (moved into `@lumjs/web-dialog` package).
+- The `dialog` class (moved into [@lumjs/web-dialog] package).
   I'm not bumping the major version as I'm the only user so fuck it.
 
 ## [1.6.0] - 2024-10-18
@@ -65,7 +71,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Moved `utils.getSymbolMap` to `@lumjs/core/maps.getSymbolMap`
   - Left an _alias_ in place so existing imports will continue to work.
   - Added an alias for the new `@lumjs/core/maps.getSymbolCache` function.
-- Bumped min version of `@lumjs/core` to reflect the above changes.
+- Bumped min version of [@lumjs/core] to reflect the above changes.
 - Fixed some DocBlocks in `query` sub-module.
 
 ## [1.3.0] - 2024-03-26
@@ -106,7 +112,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.8.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.9.0...HEAD
+[1.9.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.2...v1.8.0
 [1.7.2]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.1...v1.7.2
 [1.7.1]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.0...v1.7.1
@@ -121,3 +128,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.0]: https://github.com/supernovus/lum.web-core.js/releases/tag/v1.0.0
 
 [@lumjs/core]: https://github.com/supernovus/lum.core.js
+[@lumjs/web-dialog]: https://github.com/supernovus/lum.web-dialog.js
+[@lumjs/simple-loader]: https://github.com/supernovus/lum.simple-loader.js
+
