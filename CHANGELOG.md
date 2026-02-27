@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.11.0] - 2026-02-26
+### Added
+- A new `files` sub-module for anything to do with the various File APIs.
+  Currently just has a `download()` function for downloading arbitrary data.
+
 ## [1.10.0] - 2026-02-11
 ### Added
 - `utils.indexOf(el)` function for getting the offset index of an Element.
@@ -125,7 +130,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.10.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.11.0...HEAD
+[1.11.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.7.2...v1.8.0
