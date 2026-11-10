@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.12.0] - 2026-11-10
+### Fixed
+- A long unnoticed bug in `makeNodeList()`.
+- Added `HTMLDocument` to `isQueryable()` for implementations where it doesn't
+  extend `Document` (as is the case with `happy-dom` from my testing).
+- Fixed a couple typos in docblocks.
+### Changed
+- Updated a few things to replace things [@lumjs/core] has deprecated.
+- Used VSCode's _Format Document_ feature to reformat the files.
+- Other small prep for an planned CJS-to-ESM conversion.
+
 ## [1.11.0] - 2026-02-26
 ### Added
 - A new `files` sub-module for anything to do with the various File APIs.
@@ -130,7 +141,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.11.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.web-core.js/compare/v1.12.0...HEAD
+[1.12.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.11.0...v1.12.0
 [1.11.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/supernovus/lum.web-core.js/compare/v1.8.0...v1.9.0
